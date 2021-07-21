@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Wakeapp\Component\DtoResolver\Tests\Dto;
+namespace MarfaTech\Component\DtoResolver\Tests\Dto;
 
 use PHPUnit\Framework\TestCase;
-use Wakeapp\Component\DtoResolver\Tests\Mock\CollectionDtoClass;
-use Wakeapp\Component\DtoResolver\Tests\Mock\DtoClass;
+use MarfaTech\Component\DtoResolver\Tests\Mock\CollectionDtoClass;
+use MarfaTech\Component\DtoResolver\Tests\Mock\DtoClass;
 
 class CollectionDtoResolverTraitTest extends TestCase
 {

@@ -1,8 +1,8 @@
 DTO Resolver
 ============
 
-[![Latest Stable Version](https://poser.pugx.org/wakeapp/dto-resolver/v/stable)](https://packagist.org/packages/wakeapp/dto-resolver)
-[![Total Downloads](https://poser.pugx.org/wakeapp/dto-resolver/downloads)](https://packagist.org/packages/wakeapp/dto-resolver)
+[![Latest Stable Version](https://poser.pugx.org/marfatech/dto-resolver/v/stable)](https://packagist.org/packages/marfatech/dto-resolver)
+[![Total Downloads](https://poser.pugx.org/marfatech/dto-resolver/downloads)](https://packagist.org/packages/marfatech/dto-resolver)
 
 Введение
 --------
@@ -18,7 +18,7 @@ DTO Resolver
 Откройте консоль и, перейдя в директорию проекта, выполните следующую команду для загрузки наиболее подходящей
 стабильной версии этого компонента:
 ```bash
-    composer require wakeapp/dto-resolver
+    composer require marfatech/dto-resolver
 ```
 *Эта команда подразумевает что [Composer](https://getcomposer.org) установлен и доступен глобально.*
 
@@ -33,8 +33,8 @@ DTO Resolver
 
 namespace AcmeBundle\Dto;
 
-use Wakeapp\Component\DtoResolver\Dto\DtoResolverTrait;
-use Wakeapp\Component\DtoResolver\Dto\DtoResolverInterface;
+use MarfaTech\Component\DtoResolver\Dto\DtoResolverTrait;
+use MarfaTech\Component\DtoResolver\Dto\DtoResolverInterface;
 
 class AcmeUserDto implements DtoResolverInterface
 {
@@ -112,8 +112,8 @@ echo json_encode($dto);
 namespace AcmeBundle\Dto;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use Wakeapp\Component\DtoResolver\Dto\DtoResolverInterface;
-use Wakeapp\Component\DtoResolver\Dto\DtoResolverTrait;
+use MarfaTech\Component\DtoResolver\Dto\DtoResolverInterface;
+use MarfaTech\Component\DtoResolver\Dto\DtoResolverTrait;
 
 class AcmeUserDto implements DtoResolverInterface
 {
@@ -166,8 +166,8 @@ echo $entryDto->getEmail(); // test@gmail.com
 
 namespace AcmeBundle\Dto;
 
-use Wakeapp\Component\DtoResolver\Dto\CollectionDtoResolverTrait;
-use Wakeapp\Component\DtoResolver\Dto\CollectionDtoResolverInterface;
+use MarfaTech\Component\DtoResolver\Dto\CollectionDtoResolverTrait;
+use MarfaTech\Component\DtoResolver\Dto\CollectionDtoResolverInterface;
 
 class AcmeUserCollectionDto implements CollectionDtoResolverInterface
 {
@@ -188,7 +188,7 @@ class AcmeUserCollectionDto implements CollectionDtoResolverInterface
 ```php
 <?php declare(strict_types=1);
 
-/** @var \Wakeapp\Component\DtoResolver\Dto\CollectionDtoResolverInterface $collectionDto */
+/** @var \MarfaTech\Component\DtoResolver\Dto\CollectionDtoResolverInterface $collectionDto */
 $collectionDto = new AcmeUserCollectionDto();
 $collectionDto->add([
     'email' => '1_test@gmail.com',

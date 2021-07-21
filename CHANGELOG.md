@@ -1,4 +1,6 @@
 ## [Unreleased]
+### Changed
+- [BC BREAK] Refactoring namespace to `MarfaTech`.
 
 ## [1.2.0] - 2021-07-21
 ### Added

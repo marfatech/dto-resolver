@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Wakeapp\Component\DtoResolver\Tests\Dto;
+namespace MarfaTech\Component\DtoResolver\Tests\Dto;
 
+use MarfaTech\Component\DtoResolver\Tests\Mock\DtoClass;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\OptionsResolver\Exception\ExceptionInterface;
-use Wakeapp\Component\DtoResolver\Tests\Mock\DtoClass;
 
 use function array_column;
 

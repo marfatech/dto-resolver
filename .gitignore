@@ -17,3 +17,7 @@ composer.phar
 *.DS_Store
 /*.ini
 *~
+
+# PHPUnit
+/.phpunit.cache
+.phpunit.result.cache

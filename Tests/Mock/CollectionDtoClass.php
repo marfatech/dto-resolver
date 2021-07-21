@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Wakeapp\Component\DtoResolver\Tests\Mock;
+namespace MarfaTech\Component\DtoResolver\Tests\Mock;
 
-use Wakeapp\Component\DtoResolver\Dto\CollectionDtoResolverInterface;
-use Wakeapp\Component\DtoResolver\Dto\CollectionDtoResolverTrait;
+use MarfaTech\Component\DtoResolver\Dto\CollectionDtoResolverInterface;
+use MarfaTech\Component\DtoResolver\Dto\CollectionDtoResolverTrait;
 
 class CollectionDtoClass implements CollectionDtoResolverInterface
 {

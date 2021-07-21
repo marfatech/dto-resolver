@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Wakeapp\Component\DtoResolver\Tests\Mock;
+namespace MarfaTech\Component\DtoResolver\Tests\Mock;
 
 use ArrayAccess;
-use Wakeapp\Component\DtoResolver\Dto\DtoArrayAccessTrait;
-use Wakeapp\Component\DtoResolver\Dto\DtoResolverInterface;
-use Wakeapp\Component\DtoResolver\Dto\DtoResolverTrait;
+use MarfaTech\Component\DtoResolver\Dto\DtoArrayAccessTrait;
+use MarfaTech\Component\DtoResolver\Dto\DtoResolverInterface;
+use MarfaTech\Component\DtoResolver\Dto\DtoResolverTrait;
 
 class DtoClass implements DtoResolverInterface, ArrayAccess
 {
