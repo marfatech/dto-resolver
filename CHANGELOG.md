@@ -1,6 +1,8 @@
 ## [Unreleased]
 ### Added
 - Added tests for `DtoResolverTrait`, `CollectionDtoResolverTrait`, `DtoArrayAccessTrait`.
+### Changed
+- Change repository namespace to `marfatech`.
 ### Fixed
 - Support type hinted property fix.
 

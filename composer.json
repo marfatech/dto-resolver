@@ -1,5 +1,5 @@
 {
-    "name":        "wakeapp/dto-resolver",
+    "name":        "marfatech/dto-resolver",
     "description": "Provides possibility for working with DTO and resolving them in them-self",
     "type":        "library",
     "keywords":    ["dto", "component", "resolver", "symfony-resolver"],
