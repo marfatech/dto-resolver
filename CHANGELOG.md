@@ -1,8 +1,10 @@
 ## [Unreleased]
 ### Added
 - Added tests for `DtoResolverTrait`, `CollectionDtoResolverTrait`, `DtoArrayAccessTrait`.
+- Added new method `DtoResolverTrait::getClassVars`.
 ### Changed
 - Change repository namespace to `marfatech`.
+- Refactoring.
 ### Fixed
 - Support type hinted property fix.
 
