@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [1.2.0] - 2021-07-21
 ### Added
 - Added tests for `DtoResolverTrait`, `CollectionDtoResolverTrait`, `DtoArrayAccessTrait`.
 - Added new method `DtoResolverTrait::getClassVars`.
