@@ -1,6 +1,7 @@
 ## [Unreleased]
 ### Changed
 - Updated `php` with pattern version `~7.4||~8.0`.
+- Updated GitHub workflows `jobs.run.strategy.matrix.php-versions` to `['7.4', '8.0']`.
 
 ## [2.0.0] - 2021-07-28
 ### Changed
