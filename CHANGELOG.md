@@ -1,4 +1,6 @@
 ## [Unreleased]
+### Added
+- Symfony 6 support
 
 ## [2.0.1]
 ### Changed
