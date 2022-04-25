@@ -1,6 +1,9 @@
 ## [Unreleased]
 ### Added
 - Symfony 6 support
+### Changed
+- Updated `php` with pattern version `~8.0`.
+- Updated `symfony/options-resolver` with pattern version `~4.4||~5.4||~6.0`.
 
 ## [2.0.1]
 ### Changed
