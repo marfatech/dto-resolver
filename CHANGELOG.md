@@ -1,11 +1,13 @@
 ## [Unreleased]
+
+## [2.1.0] - 2022-05-17
 ### Added
 - Symfony 6 support
 ### Changed
 - Updated `php` with pattern version `~8.0`.
 - Updated `symfony/options-resolver` with pattern version `~4.4||~5.4||~6.0`.
 
-## [2.0.1]
+## [2.0.1] - 2021-10-15
 ### Changed
 - Updated `php` with pattern version `~7.4||~8.0`.
 - Updated GitHub workflows `jobs.run.strategy.matrix.php-versions` to `['7.4', '8.0']`.
